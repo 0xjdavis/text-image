@@ -7,7 +7,7 @@ import requests
 openai_api_key = st.secrets["openai_key"]
 client=OpenAI(api_key=openai_api_key)
 
-st.title("🎆 OpenAI DALL-E Text To Image Generation") 
+st.title("OpenAI DALL-E Text-to-Image Generation") 
 st.caption("Prompted artwork powered by OpenAI DALL-E Model")
 
 # ----------------------------------------------
