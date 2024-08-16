@@ -9,6 +9,7 @@ openai_api_key = st.secrets["openai_key"]
 client=OpenAI(api_key=openai_api_key)
 
 st.sidebar.header("About App")
+st.sidebar.write("This is a zero-shot text-to-image generation chatbot using OpenAI Dall-e model by 0xjdavis")
 
 # Calendly
 st.sidebar.markdown("""
