@@ -8,8 +8,16 @@ import requests
 openai_api_key = st.secrets["openai_key"]
 client=OpenAI(api_key=openai_api_key)
 
+# Setting page layout
+st.set_page_config(
+    page_title="OpenAI DALL-E Text-to-Image Generation",
+    page_icon="✨",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
+
 st.sidebar.header("About App")
-st.sidebar.write("This is a zero-shot text-to-image generation chatbot using OpenAI DALL-E 3 model by 0xjdavis")
+st.sidebar.markdown('This is a zero-shot text-to-image generation chatbot using OpenAI DALL-E 3 model by <a href="https://ai.jdavis.xyz" target="_blank">0xjdavis</a>.', unsafe_allow_html=True)
 
 # Calendly
 st.sidebar.markdown("""
