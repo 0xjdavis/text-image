@@ -12,7 +12,7 @@ client=OpenAI(api_key=openai_api_key)
 st.set_page_config(
     page_title="OpenAI DALL-E Text-to-Image Generation",
     page_icon="✨",
-    layout="wide",
+    layout="centered",
     initial_sidebar_state="expanded"
 )
 
