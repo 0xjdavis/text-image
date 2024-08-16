@@ -1,6 +1,6 @@
 # 🎈 Text-to-Image Generation
 
-Text-to-Image generation chatbot using Open AI Dall-e
+Text-to-Image generation chatbot using OpenAI DALL-E 3
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://text-image-gen.streamlit.app/)
 
