@@ -38,7 +38,7 @@ st.sidebar.caption("©️ Copyright 2024 J. Davis")
     
 
 st.title("OpenAI DALL-E Text-to-Image Generation") 
-st.caption("Prompted artwork powered by OpenAI DALL-E Model")
+st.write("Prompted artwork powered by OpenAI DALL-E Model")
 
 # ----------------------------------------------
 # CTA BUTTON
