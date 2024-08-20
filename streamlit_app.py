@@ -43,9 +43,9 @@ st.write("Prompted artwork powered by OpenAI DALL-E Model")
 # ----------------------------------------------
 # CTA BUTTON
 if "messages" in st.session_state:
-  url = "/OpenAI%20Text%20To%20Image%20Generation"
+  url = "https://text-image-gen.streamlit.app"
   st.markdown(
-    f'<div><a href="{url}" target="_self" style="justify-content:center; padding: 10px 10px; background-color: #2D2D2D; color: #efefef; text-align: center; text-decoration: none; font-size: 16px; border-radius: 8px;">Clear History</a></div><br /><br />',
+    f'<div><a href="{url}" target="_top" style="justify-content:center; padding: 10px 10px; background-color: #2D2D2D; color: #efefef; text-align: center; text-decoration: none; font-size: 16px; border-radius: 8px;">Clear History</a></div><br /><br />',
       unsafe_allow_html=True
     )
 
